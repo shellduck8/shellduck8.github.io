@@ -1,0 +1,50 @@
+body {background-color: bisque;
+      text-align:center;
+    }
+.profile {
+    width:150px;
+    height:150px;
+    border: solid black 2px;
+    border-radius: 75px;
+    object-fit: cover;
+    overflow: hidden;
+}
+.titel {
+    font-size:40px;
+    font-style:italic;
+    font-family: monospace;
+    font-weight: bold;
+    text-align:center;
+}
+.ondertitel {
+    font-size:25px;
+    font-style:oblique;
+    font-family: cursive;
+    font-weight:lighter;
+    text-align:center;
+}
+.beschrijving {
+    font-size:15px;
+    font-style:inherit;
+    font-family: serif;
+    font-weight: lighter;
+    text-align:center;
+}
+.linktree {
+    height:40px;
+    width:200px;
+    font-size:20px;
+    font-style:normal;
+    font-family:sans-serif;
+    font-weight: bold;
+    border: black 1px;
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 5px;
+    color:black;
+    text-decoration:none;
+    text-align:center;
+}
+.linktree:hover {
+    color: #555;
+}
